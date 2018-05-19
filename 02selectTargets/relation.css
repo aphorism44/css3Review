@@ -1,0 +1,26 @@
+
+
+/* select first sibling immediately following the heading */
+
+h3 + p {
+  background: yellow;
+}
+
+/* select span child of the paragraph element */
+p > span {
+  background: lime;
+}
+
+/* select in turn each descendant element in the list by
+  describing its hierarchy */
+body > ul {
+  background: fuchsia;
+}
+
+body > ul > li {
+  background: aqua;
+}
+
+body > ul > li > span {
+  background: orange;
+}

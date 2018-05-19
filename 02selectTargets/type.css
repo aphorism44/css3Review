@@ -1,0 +1,22 @@
+* {
+  font-style: italic;
+}
+
+div * {
+  /*this places border around each element _within_ a div*/
+  border: 0.2em solid red;
+}
+
+div {
+  width: 50%;
+  /*this places border around each div
+  border: 0.2em solid red*/
+}
+
+a {
+  background: yellow;
+}
+
+h1, ul {
+  background: aqua;
+}

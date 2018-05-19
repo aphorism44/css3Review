@@ -1,0 +1,22 @@
+
+ul li {
+  color: red;
+}
+ol li {
+  color: blue;
+}
+
+/*
+this would overwrite the above rules
+#menu li {
+  color: green;
+}
+
+//this would do the same as above rules, only more specifically
+#menu ul li {
+  color: orange;
+}
+#menu ol li {
+  color: purple;
+}
+*/
